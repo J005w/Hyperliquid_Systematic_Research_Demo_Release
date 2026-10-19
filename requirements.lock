@@ -1,0 +1,2 @@
+# Zero third-party runtime, build and test dependencies.
+# Run directly with CPython 3.12.14; no pip install is required.

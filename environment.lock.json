@@ -1,0 +1,10 @@
+{
+  "implementation": "CPython",
+  "version": "3.12.14",
+  "third_party_dependencies": [],
+  "test_runner": "stdlib unittest",
+  "installation": "none; direct source execution",
+  "verified_platform": "Windows AMD64",
+  "ci_platform": "ubuntu-24.04; exact-commit hosted CI verified in delivery receipt",
+  "limits": "Interpreter patch pinned; OS image and interpreter binary digest are not locked. This is not a hermetic container or interpreter CVE clearance."
+}

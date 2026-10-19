@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "evidence_kind": "synthetic_implementation_only",
+  "time_basis": "invented relative milliseconds; day zero is not a historical date",
+  "construction": "Prices and event times invented for hand-checkable implementation checks; no source panel sampled, perturbed or fitted.",
+  "snapshots": [
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 0,
+      "available_ms": 0,
+      "mark": 100.0
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 60000,
+      "available_ms": 60000,
+      "mark": 100.5
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 3600000,
+      "available_ms": 3600000,
+      "mark": 100.5
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 86400000,
+      "available_ms": 86400000,
+      "mark": 100.0
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 86460000,
+      "available_ms": 86460000,
+      "mark": 101.0
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 90000000,
+      "available_ms": 90000000,
+      "mark": 101.0
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 172800000,
+      "available_ms": 172800000,
+      "mark": 100.0
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 172860000,
+      "available_ms": 172860000,
+      "mark": 99.0
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 176400000,
+      "available_ms": 176400000,
+      "mark": 99.0
+    }
+  ],
+  "events": [
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 86400000,
+      "type": "lvn_standing"
+    },
+    {
+      "asset": "INVENTED_A",
+      "t_ms": 172800000,
+      "type": "lvn_standing"
+    }
+  ]
+}

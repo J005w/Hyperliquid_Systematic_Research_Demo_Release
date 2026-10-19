@@ -1,0 +1,36 @@
+{
+  "protocol_id": "LVN-FORWARD-001",
+  "frozen_date_adelaide": "2026-10-19",
+  "status": "protocol and plumbing only; no prospective result",
+  "scope": "forward extension of the existing LVN study, separate from the two future TWAP and funding studies",
+  "asset": "BTC",
+  "feature": "typical-price candle-volume proxy; occupied bins only",
+  "lookback_hours": 24,
+  "candle_interval": "1m",
+  "min_completed_candles": 720,
+  "max_candle_gap_ms": 120000,
+  "max_last_candle_age_ms": 120000,
+  "bin_width_bps_of_last_eligible_close": 5,
+  "lvn_occupied_bin_volume_quantile": 0.2,
+  "proximity_bps": 15,
+  "decision_clock": "all used inputs received, parsed and persisted before decision; current snapshot cannot imply historical availability",
+  "primary_horizon_min": 60,
+  "entry_max_age_ms": 60000,
+  "exit_max_delay_ms": 240000,
+  "benchmark_side": 1,
+  "controls": "prior-day same-asset same-UTC-hour non-events; no reuse or overlap; underlying feature reconstructed for controls",
+  "cost_scenarios_per_side_bps": {
+    "taker": 4.5,
+    "additional_slippage": [
+      0,
+      2,
+      5
+    ]
+  },
+  "data_plan": "human-initiated bounded collections only; smoke collection validates acquisition, not study sampling density",
+  "minimum_evaluation_gate": "at least 20 new UTC days and 30 matched non-overlapping pairs, plus coverage review; collection gate, not statistical proof",
+  "holdout": "freeze code/config commit before first complete new UTC day; reserve final 10 qualified UTC days without outcome inspection; purge 65 minutes at boundaries",
+  "evaluation": "one primary mean paired markout contrast; dependence-aware inference must account for shared control/event days; no inference until design review",
+  "changes": "record amendments before new outcomes are inspected; inspected holdouts become development data",
+  "executable_claims": "bid/ask snapshots support conditional cost checks only; no order fills, queue position, size or profitability inference"
+}

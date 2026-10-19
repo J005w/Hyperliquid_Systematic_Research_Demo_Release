@@ -1,0 +1,11 @@
+{
+  "horizons_min": [
+    1,
+    60
+  ],
+  "benchmark_direction": 1,
+  "max_entry_age_ms": 60000,
+  "max_exit_delay_ms": 240000,
+  "fee_bps_per_side": 4.5,
+  "purpose": "synthetic implementation check only"
+}

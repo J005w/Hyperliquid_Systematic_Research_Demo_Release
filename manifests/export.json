@@ -1,0 +1,215 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 19,
+      "role": "repository_metadata",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    ".github/workflows/offline.yml": {
+      "bytes": 620,
+      "role": ".github",
+      "sha256": "2cef2acb692235a14bd5a247f30561fcf484326340742b1e4d5647453a1ff0b6"
+    },
+    ".gitignore": {
+      "bytes": 60,
+      "role": "repository_metadata",
+      "sha256": "f972578c585c8855f05da64a71ee469873b63d007b9646ca839cdfd3bf455003"
+    },
+    ".python-version": {
+      "bytes": 8,
+      "role": "repository_metadata",
+      "sha256": "f50159fad3f4319868eb38717b91d55843c41e9803014c8de05e116a6d0bcfdc"
+    },
+    "AI_ASSISTANCE.md": {
+      "bytes": 389,
+      "role": "repository_metadata",
+      "sha256": "c897d4f5646d2f55333cb54da26634a0443457c357eaad0deffa96516b16553a"
+    },
+    "LICENSE": {
+      "bytes": 1062,
+      "role": "repository_metadata",
+      "sha256": "fcedfbbd715c622413bb8cab4f754dd33cba6e07f916167668a547e64a437060"
+    },
+    "NOTICE.md": {
+      "bytes": 906,
+      "role": "repository_metadata",
+      "sha256": "667bc77c5d5e6e6fa5dfb98b023f2cb80d0ccfe81d6f61d8f3fa251170833322"
+    },
+    "README.md": {
+      "bytes": 2543,
+      "role": "repository_metadata",
+      "sha256": "9dbb202c69e4a2142ee03a1056c798a4dac2b9dadb6263a5de71fae01332e76f"
+    },
+    "config/forward_protocol.json": {
+      "bytes": 1987,
+      "role": "config",
+      "sha256": "6385d40041d76ee7880955c2fececedc7e091c38cf3d338b385b12c04e82f71a"
+    },
+    "config/study.json": {
+      "bytes": 209,
+      "role": "config",
+      "sha256": "30217221ae051e46079f5b6eab2e8b34ab7f1862dd4ddb64eace410f437477bc"
+    },
+    "demo.py": {
+      "bytes": 267,
+      "role": "repository_metadata",
+      "sha256": "b9f7b204b4a4456b5de03ad58dab4bf3793509da659eda066ebcc2f32afe3cc4"
+    },
+    "docs/BACKGROUND.md": {
+      "bytes": 4569,
+      "role": "docs",
+      "sha256": "9e181bf0df61029a418d897a62d4c4e86d4fc0958e8b4c92abe3cf0c73ed591a"
+    },
+    "docs/FORWARD_PROTOCOL.md": {
+      "bytes": 3362,
+      "role": "docs",
+      "sha256": "b97c297be90252a26be937b2fd7c89ffca9433c6e3eb3fb12d136e6fcf97e1d1"
+    },
+    "docs/PROVENANCE.md": {
+      "bytes": 1854,
+      "role": "docs",
+      "sha256": "044608fb27411cb6f6b7571454ea61acb03fb0d97c846e75f1035ad39164044b"
+    },
+    "docs/RECONCILIATION.md": {
+      "bytes": 6622,
+      "role": "docs",
+      "sha256": "4306c0ecb023798ff984241b9eaa94ea30b14d2aa9a58c5e72baa2ae68868f8d"
+    },
+    "docs/REPRODUCIBILITY.md": {
+      "bytes": 1154,
+      "role": "docs",
+      "sha256": "b6aca40f43c08ffa6ac51e9ecf037848ba22e67dcd8029e112c8fbb6e00a5bb4"
+    },
+    "docs/RESEARCH_DESIGN.md": {
+      "bytes": 4091,
+      "role": "docs",
+      "sha256": "c695f3417307c2e81c640839ee8a40762ca2ebf6658a16b80c7eb6401669110d"
+    },
+    "docs/RETROSPECTIVE_FINDING.md": {
+      "bytes": 1805,
+      "role": "docs",
+      "sha256": "c26e4cf105820f70e9f3ad75bc886327cbdd597ea5d7d1ec84dbe81111585152"
+    },
+    "docs/RIGHTS_REVIEW.md": {
+      "bytes": 2174,
+      "role": "docs",
+      "sha256": "453c3387dce38ff5dadb485b01fd6202b509fc8026502f9e75f6cb3db68f15e8"
+    },
+    "environment.lock.json": {
+      "bytes": 464,
+      "role": "repository_metadata",
+      "sha256": "3e8ecefaa7b007cd89c6c85d4a4cad0e4277ced6747ff042b4324d6ac2664025"
+    },
+    "fixtures/reconciliation.json": {
+      "bytes": 3148,
+      "role": "fixtures",
+      "sha256": "fad8614aece28e58c61463678a33d0517a76f3554d7686ae5e4fe7ec5d2283cd"
+    },
+    "fixtures/synthetic_panel.json": {
+      "bytes": 1578,
+      "role": "fixtures",
+      "sha256": "344e216d084474af159ccccf2a0a57ac96b11a186a5be31e81f46b46ac3a8837"
+    },
+    "reports/RESULTS.md": {
+      "bytes": 2077,
+      "role": "reports",
+      "sha256": "41005e7d51b7acc9959c3a762e9fd3f92be2260b9bc4c3b00df06003f8bcef5a"
+    },
+    "reports/results.json": {
+      "bytes": 5371,
+      "role": "reports",
+      "sha256": "cd7277c37265f8ad61490b5471499c7e271c08948526651642285a1c56ae00f1"
+    },
+    "requirements.lock": {
+      "bytes": 122,
+      "role": "repository_metadata",
+      "sha256": "3dbf1921944e6acc7eb05cbea8d772f0147b0d2cad76a9654c0e61b1f8df90f7"
+    },
+    "src/hl_demo/__init__.py": {
+      "bytes": 79,
+      "role": "src",
+      "sha256": "501663376eacda01c02f35c78bbbe995b4345144a9986d841867ee438a9ab0ec"
+    },
+    "src/hl_demo/cells.py": {
+      "bytes": 9071,
+      "role": "src",
+      "sha256": "e9fa2a5e1fe6a1b12f9bc2b5b46ce2c1131d55f1b3929703b6ea53e08b86a61e"
+    },
+    "src/hl_demo/event_study.py": {
+      "bytes": 8330,
+      "role": "src",
+      "sha256": "d330f143252e208c944759b9e20622fd1d620d21f890a2f1255d4b337dbb972b"
+    },
+    "src/hl_demo/public_data.py": {
+      "bytes": 9957,
+      "role": "src",
+      "sha256": "4548ed4981f8bc780e274cf9c85308a8e08a89ac4ab81ab17a2e6ffacdeb9c16"
+    },
+    "src/hl_demo/reconciliation.py": {
+      "bytes": 12042,
+      "role": "src",
+      "sha256": "0fd71ee19553837acce6b0d6e845baa6dacab2cea143543d8c2381035c7aa4ba"
+    },
+    "src/hl_demo/synthetic_report.py": {
+      "bytes": 5613,
+      "role": "src",
+      "sha256": "71d35aaccee5ee975ac7bb447c4b6293e9f95298d028858387a52c5cc65dd869"
+    },
+    "tests/run.py": {
+      "bytes": 372,
+      "role": "tests",
+      "sha256": "1115afd41da1e1ba54bfd4417915565615949c6999744803dfd48fd6591fbbaa"
+    },
+    "tests/test_cells.py": {
+      "bytes": 3871,
+      "role": "tests",
+      "sha256": "aa04ea28215af7dc0752eaaf99f7fe59ea74a17f370f0807d27b32c892435227"
+    },
+    "tests/test_event_study.py": {
+      "bytes": 7146,
+      "role": "tests",
+      "sha256": "3d0a31a924224206b167ed48ab21b0d955288eb4be8500de9816ccf592fd269c"
+    },
+    "tests/test_input_validation.py": {
+      "bytes": 1390,
+      "role": "tests",
+      "sha256": "3d694078f112eb486367acc43aff3ada94c434453acb560c6d45acc7cf1b4446"
+    },
+    "tests/test_public_data.py": {
+      "bytes": 5441,
+      "role": "tests",
+      "sha256": "83fb9aeaaf783beb8c7b555732a0ef389dccb7f6d3e6cddf4f30117b904ed91e"
+    },
+    "tests/test_reconciliation.py": {
+      "bytes": 10884,
+      "role": "tests",
+      "sha256": "50d448b476b4577c94ddde0424286a1ad3014067a9bbf84035a23d4a584a4a35"
+    },
+    "tests/test_synthetic_report.py": {
+      "bytes": 2534,
+      "role": "tests",
+      "sha256": "52e9965581af5d3646df7d8c882e9c44f2aea79e041679f5c29d93d3dfb50a90"
+    },
+    "tools/collect_public.py": {
+      "bytes": 883,
+      "role": "tools",
+      "sha256": "494b5f1160334794a7c1ed3ee04d834180b26b2f57879dd1e38aa038b452027e"
+    },
+    "tools/rebuild_feature.py": {
+      "bytes": 1407,
+      "role": "tools",
+      "sha256": "ed4bd2ef650b3b45d21f58884c7bf8ebcf1cdfcfd45baf0a96c4ff381424a804"
+    },
+    "tools/verify_export.py": {
+      "bytes": 2235,
+      "role": "tools",
+      "sha256": "09bd94ea102dc7b5b6e121ffd0295e35c0c2afe763e5470ca20b5cdfd16dc989"
+    },
+    "tools/verify_release.py": {
+      "bytes": 1884,
+      "role": "tools",
+      "sha256": "7caff82d8e91de1bd97a18e6317717b12d53e92bb45c77853dbc7781288f65ed"
+    }
+  },
+  "schema_version": 1
+}

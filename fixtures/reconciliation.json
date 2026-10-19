@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "data_class": "synthetic",
+  "description": "Invented linear-perpetual examples. All prices, cash values, sizes, identifiers and relative-second timestamps are artificial. No account or market data.",
+  "max_snapshot_age_seconds": 30,
+  "scenarios": [
+    {
+      "id": "failed_exit",
+      "kind": "exit",
+      "position": {"signed_size": "2", "entry_price": "100", "entry_fee": "0.10", "opened_at": 100},
+      "fill": {"status": "error", "signed_fill": "0", "price": null, "fee": null, "filled_at": 200},
+      "snapshot": {"signed_size": "2", "open_orders": 0, "observed_at": 201},
+      "as_of": 205,
+      "expected": {"local_signed_size": "2", "block_new_risk": true, "close_records": 0}
+    },
+    {
+      "id": "rejected_exit",
+      "kind": "exit",
+      "position": {"signed_size": "-2", "entry_price": "100", "entry_fee": "0.10", "opened_at": 100},
+      "fill": {"status": "rejected", "signed_fill": "0", "price": "90", "fee": "0", "filled_at": 200},
+      "snapshot": {"signed_size": "-2", "open_orders": 0, "observed_at": 201},
+      "as_of": 205,
+      "expected": {"local_signed_size": "-2", "block_new_risk": true, "close_records": 0}
+    },
+    {
+      "id": "acknowledged_exit_is_not_a_fill",
+      "kind": "exit",
+      "position": {"signed_size": "2", "entry_price": "100", "entry_fee": "0.10", "opened_at": 100},
+      "fill": {"status": "accepted", "signed_fill": "0", "price": "110", "fee": "0", "filled_at": 200},
+      "snapshot": {"signed_size": "2", "open_orders": 1, "observed_at": 201},
+      "as_of": 205,
+      "expected": {"local_signed_size": "2", "block_new_risk": true, "close_records": 0}
+    },
+    {
+      "id": "rejected_entry_with_price_metadata",
+      "kind": "entry",
+      "position": null,
+      "requested_size": "2",
+      "fill": {"status": "rejected", "signed_fill": "0", "price": "100", "fee": "0", "filled_at": 200},
+      "snapshot": {"signed_size": "0", "open_orders": 0, "observed_at": 201},
+      "as_of": 205,
+      "expected": {"local_signed_size": "0", "block_new_risk": false, "close_records": 0}
+    },
+    {
+      "id": "exchange_local_drift",
+      "kind": "snapshot",
+      "position": null,
+      "snapshot": {"signed_size": "1", "open_orders": 1, "observed_at": 201},
+      "as_of": 205,
+      "expected": {"local_signed_size": "0", "block_new_risk": true, "close_records": 0}
+    },
+    {
+      "id": "confirmed_close_cash_bridge",
+      "kind": "exit",
+      "position": {"signed_size": "2", "entry_price": "100", "entry_fee": "0.10", "opened_at": 100},
+      "fill": {"status": "filled", "signed_fill": "-2", "price": "110", "fee": "0.11", "filled_at": 200},
+      "snapshot": {"signed_size": "0", "open_orders": 0, "observed_at": 201},
+      "as_of": 205,
+      "cash": {
+        "funding_cashflows": [{"id": "synthetic_settlement_1", "settled_at": 150, "amount": "-0.04"}],
+        "funding_complete": true,
+        "cash_before_open": "1000.00",
+        "cash_after_close": "1019.75"
+      },
+      "expected": {"local_signed_size": "0", "block_new_risk": false, "close_records": 1, "net_pnl": "19.75", "unexplained_residual": "0.00"}
+    }
+  ]
+}
